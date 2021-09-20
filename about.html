@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparks Foundation | About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="icon.PNG">
+    <style>
+      .Mycontainer {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      .centered {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size:xx-large;
+      }
+      @media only screen and (max-width: 880px){
+        .centered{
+          top: 65%;
+          font-size: large;
+          padding-bottom: 2px;
+        }
+      }
+      @media only screen and (max-width: 472px){
+        .centered{
+          top: 60%;
+          font-size:medium;
+          padding-bottom: 2px;
+        }
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-3" href="#">The Sparks Foundation</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title fs-3" id="offcanvasNavbarLabel">Sparks Foundation Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body bg-black">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item fs-3">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item fs-3">
+            <a class="nav-link " href="about.html">About Us</a>
+          </li>
+          <li class="nav-item fs-3">
+            <a class="nav-link " href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item fs-3">
+            <a class="nav-link " href="https://rzp.io/l/x9HaPMwQ">Donate</a>
+          </li>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="text-gray-400 body-font bg-gray-800 py-4">
+    <div class="container px-5 py-5 mx-auto">
+      <div class="flex flex-col text-center w-full">
+        <h1 class="sm:text-4xl text-3xl text-indigo-400 tracking-widest font-medium title-font mb-3 " style="padding-top: 18px;">ABOUT US</h1>
+        <h2 class="sm:text-xl text-xl font-medium title-font text-white">We are dedicated to advancing the rights of all girls and boys in India, especially the most disadvantaged. We work across India to save children’s lives, help them fulfill their potential and defend their rights.</h2>
+      </div>
+  </section>
+
+<section class="text-gray-600 body-font">
+    <div class="container px-5 py-14 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./health.jpg" alt="blog">
+            <div class="p-6">
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">HEALTH</h1>
+              <p class="leading-relaxed mb-3">We work to improve maternal, newborn, child and adolescent health through collaboration with communities, governments and partners in India.</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://rzp.io/l/x9HaPMwQ">Donate Now
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./education.jpg" alt="blog">
+            <div class="p-6">
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">EDUCATION</h1>
+              <p class="leading-relaxed mb-3">
+                We are committed to ensuring all children in India have access to inclusive and equitable quality education.</p>
+              <div class="flex items-center flex-wrap">
+                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://rzp.io/l/x9HaPMwQ">Donate Now
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./nuitrition.jpg" alt="blog">
+            <div class="p-6">
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">NUITRITION</h1>
+              <p class="leading-relaxed mb-3">
+                We work to ensure that all children in the country are well nourished and receive optimal nutrition to promote their survival, growth and development.</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="https://rzp.io/l/x9HaPMwQ">Donate Now
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Footer -->
+<footer class="bg-light text-center ">
+  <div class="container p-3">
+    <section class="mb-2">
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998; border-radius: 20px;" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee; border-radius: 20px;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39; border-radius: 20px;" href="#!" role="button"><i class="fab fa-youtube"></i></a>
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac; border-radius: 20px;" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca; border-radius: 20px;" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #333333; border-radius: 20px;" href="#!" role="button"><i class="fab fa-github"></i></a>
+    </section>
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2021 Copyright:
+    <a style="text-decoration: none;" class="text-dark" href="https://www.thesparksfoundationsingapore.org/"><b>The Sparks Foundation<b></a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+</body>
+</html>
